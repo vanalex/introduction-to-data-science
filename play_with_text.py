@@ -3,7 +3,6 @@ import string
 import nltk
 from nltk.corpus import stopwords
 nltk.download('stopwords')
-import nltk
 nltk.download('punkt')
 from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.stop_words import ENGLISH_STOP_WORDS
